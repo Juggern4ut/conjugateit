@@ -4,6 +4,8 @@
   border: 1px solid #999;
   margin: 10rem auto;
   box-shadow: 1rem 1rem 2rem rgba(0,0,0,0.3);
+  border-radius: 5px;
+  overflow: hidden;
 
   &__verb{
     background-color: #202340;
@@ -32,7 +34,14 @@
   }
 
   &__result{
-    margin-top: 1rem;
+    padding: 1rem;
+    &--correct{
+      background-color: #060;
+    }
+
+    &--wrong{
+      background-color: #c00;
+    }
   }
 
   &__form{
@@ -41,12 +50,6 @@
   }
 
   &__response{
-    &--correct{
-      color: #060;
-    }
-
-    &--wrong{
-      color: #c00;
-    }
+    color: #fff;
   }
 }

@@ -25,5 +25,6 @@
         echo $db->error;
       }
     }
+    $db->query("INSERT INTO tbl_baseverb_bundle (baseverb_fk, bundle_fk) VALUES ('".$baseverb_id."', '1')");
   }
 ?>

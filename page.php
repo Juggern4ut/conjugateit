@@ -12,7 +12,6 @@
   <body>
     <?php
       echo "<article class='card'>";
-
         echo "<h2 class='card__verb'></h2>";
         echo "<form class='card__form'>";
           echo "<span pronoun_id='0' baseverb_id='0' class='card__pronoun'></span>";
@@ -21,6 +20,8 @@
         echo "</form>";
 
       echo "</article>";
+      echo "<ul class='wordlist'>";
+      echo "</ul>";
     ?>    
   </body>
 </html>
