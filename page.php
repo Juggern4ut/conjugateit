@@ -14,9 +14,8 @@
       echo "<article class='card'>";
 
         echo "<h2 class='card__verb'></h2>";
-
-        echo "<span pronoun_id='0' baseverb_id='0' class='card__pronoun'></span>";
         echo "<form class='card__form'>";
+          echo "<span pronoun_id='0' baseverb_id='0' class='card__pronoun'></span>";
           echo "<input value='' class='card__answer' type='text'>";
           echo "<button type='submit' class='card__submit'>Check</button>";
         echo "</form>";

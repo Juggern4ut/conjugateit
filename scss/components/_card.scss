@@ -1,4 +1,52 @@
 .card{
-  width: 200px;
-  border: 1px solid #dedede;
+  width: calc(100% - 5rem);
+  max-width: 400px;
+  border: 1px solid #999;
+  margin: 10rem auto;
+  box-shadow: 1rem 1rem 2rem rgba(0,0,0,0.3);
+
+  &__verb{
+    background-color: #202340;
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
+  &__pronoun{
+    display: inline-block;
+    width: 5rem;
+  }
+
+  &__submit{
+    background-color: #202340;
+    color: #fff;
+    border: 1px solid #444;
+    padding: 1rem;
+    width: 7rem;
+  }
+
+  &__answer{
+    border: 1px solid #dedede;
+    padding: 1rem;
+    width: calc(100% - 12rem);
+  }
+
+  &__result{
+    margin-top: 1rem;
+  }
+
+  &__form{
+    padding: 1rem;
+    background-color: #fff;
+  }
+
+  &__response{
+    &--correct{
+      color: #060;
+    }
+
+    &--wrong{
+      color: #c00;
+    }
+  }
 }
